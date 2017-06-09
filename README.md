@@ -2,7 +2,7 @@
 
 IMDB Movie API For Fetching Movie Details Using PHP.
 
-[Get IMDB API Key](http://imdbapi.net/user/api "Get IMDB API Key")
+:key: [Get IMDB API Key](http://imdbapi.net/user/api "Get IMDB API Key")
 
 ### Demo
 

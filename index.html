@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMDB Data</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 style="margin: 0px 0px 40px 0px;" class="list-group-item green white-text text-center"><i class="fa fa-film"></i> IMDB Movie Search</h1>
+    <section id="movie">
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h6><strong>Search Movie</strong></h6>
+                        </div>
+                        <div class="panel-body">
+                            <form method="POST" action="" accept-charset="UTF-8" class="form-inline" id="search_by_title">
+                                <div class="form-group input-field">
+                                    <label for="by_title">Movie Title</label>
+                                    <input type="text" class="form-control validate" autocomplete="off" name="title" id="by_title">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i> Search</button>
+                                    <button type="reset" class="btn btn-default">Reset</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="status"></div>
+            <div class="error"></div>
+            <br>
+            <div class="panel panel-success result_example">
+                <div class="panel-heading">
+                    <h6><strong>Result</strong></h6>
+                </div>
+                <div class="panel-body" id="result_example"></div>
+            </div>
+        </div>
+    </section>
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
